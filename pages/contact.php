@@ -1,0 +1,1 @@
+<?php require_once __DIR__ . '/../header.php'; ?><h2>Contact</h2><p>Email: owner@example.com</p><?php require_once __DIR__ . '/../footer.php'; ?>

@@ -1,0 +1,1 @@
+<?php require_once __DIR__ . '/../header.php'; ?><h2>About NexGizmo</h2><p>Demo e-commerce project.</p><?php require_once __DIR__ . '/../footer.php'; ?>

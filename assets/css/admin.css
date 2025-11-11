@@ -1,0 +1,77 @@
+/* NexGizmo Admin Panel - Apple Style with Light/Dark Toggle */
+:root {
+  --bg: #f5f5f7;
+  --card-bg: #fff;
+  --text: #111;
+  --accent: #0071e3;
+  --border: #ddd;
+}
+
+[data-theme="dark"] {
+  --bg: #121212;
+  --card-bg: #1e1e1e;
+  --text: #f4f4f4;
+  --accent: #0a84ff;
+  --border: #333;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  transition: background 0.3s, color 0.3s;
+}
+
+header {
+  background: var(--card-bg);
+  padding: 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+main {
+  padding: 20px;
+}
+
+.card, .table {
+  background: var(--card-bg);
+  border-radius: 12px;
+  padding: 16px;
+  border: 1px solid var(--border);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.04);
+}
+
+.btn {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+.table th, .table td {
+  border-bottom: 1px solid var(--border);
+  padding: 10px;
+}
+
+.table th {
+  text-align: left;
+  font-weight: 600;
+}
+
+.error {
+  color: red;
+}
